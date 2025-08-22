@@ -1,9 +1,7 @@
 name: Docker Compose Up
 
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   compose-up:
