@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Simple Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Inter', Arial, sans-serif;
+        background: #f6f8fa;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-weight: 600;
+        color: #222;
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+        padding: 2rem 3rem;
+        text-align: center;
+        max-width: 400px;
+      }
+
+      p {
+        color: #555;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem 0;
+        color: #888;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>What is CI/CD?</h1>
+    </header>
+    <main>
+      <div class="card">
+        <h2
+          style="
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2a2a2a;
+          "
+        >
+          Continuous Integration & Continuous Delivery
+        </h2>
+        <p>
+          <b>CI/CD</b> is a modern software development practice that helps
+          teams deliver code faster and more reliably.
+        </p>
+        <ul
+          style="
+            text-align: left;
+            color: #555;
+            margin: 1.5rem 0 0 0;
+            padding-left: 1.2rem;
+            font-size: 1rem;
+          "
+        >
+          <li>
+            <b>Continuous Integration (CI):</b> Developers regularly merge code
+            changes into a shared repository. Automated tests run to catch
+            errors early.
+          </li>
+          <li>
+            <b>Continuous Delivery (CD):</b> Code is automatically prepared for
+            release, so new features and fixes can be deployed quickly and
+            safely.
+          </li>
+        </ul>
+        <p style="margin-top: 1.5rem; color: #444">
+          This process makes software development faster, safer, and more
+          efficient.
+        </p>
+      </div>
+    </main>
+    <footer>&copy; 2025 Simple CI/CD Explanation</footer>
+  </body>
+</html>
